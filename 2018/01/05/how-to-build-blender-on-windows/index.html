@@ -3,23 +3,23 @@
 <head>
     <meta charset="utf-8">
     
-    <title>Hello World | I learn to code</title>
+    <title>how to build blender on windows | I learn to code</title>
     
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
     
         <meta name="keywords" content="" />
     
-    <meta name="description" content="Welcome to Hexo! This is your very first post. Check documentation for more info. If you get any problems when using Hexo, you can find the answer in troubleshooting or you can ask me on GitHub. Quick">
+    <meta name="description" content="blender를 windows10에서 visual studio 2015를 이용하여 build해보자.이곳을 참고하여Subversion, Git, CMake, Visual Studio 2015 등등 필요한 응용 프로그램들을 설치한다. 12345678910cd c:\blender-gitgit clone git://git.blender.org/blender.git">
 <meta property="og:type" content="article">
-<meta property="og:title" content="Hello World">
-<meta property="og:url" content="http://iamslash.github.io/2018/01/04/hello-world/index.html">
+<meta property="og:title" content="how to build blender on windows">
+<meta property="og:url" content="http://iamslash.github.io/2018/01/05/how-to-build-blender-on-windows/index.html">
 <meta property="og:site_name" content="I learn to code">
-<meta property="og:description" content="Welcome to Hexo! This is your very first post. Check documentation for more info. If you get any problems when using Hexo, you can find the answer in troubleshooting or you can ask me on GitHub. Quick">
+<meta property="og:description" content="blender를 windows10에서 visual studio 2015를 이용하여 build해보자.이곳을 참고하여Subversion, Git, CMake, Visual Studio 2015 등등 필요한 응용 프로그램들을 설치한다. 12345678910cd c:\blender-gitgit clone git://git.blender.org/blender.git">
 <meta property="og:locale" content="en">
-<meta property="og:updated_time" content="2018-01-04T12:44:18.879Z">
+<meta property="og:updated_time" content="2018-01-05T05:13:54.488Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="Hello World">
-<meta name="twitter:description" content="Welcome to Hexo! This is your very first post. Check documentation for more info. If you get any problems when using Hexo, you can find the answer in troubleshooting or you can ask me on GitHub. Quick">
+<meta name="twitter:title" content="how to build blender on windows">
+<meta name="twitter:description" content="blender를 windows10에서 visual studio 2015를 이용하여 build해보자.이곳을 참고하여Subversion, Git, CMake, Visual Studio 2015 등등 필요한 응용 프로그램들을 설치한다. 12345678910cd c:\blender-gitgit clone git://git.blender.org/blender.git">
     
 
     
@@ -138,14 +138,14 @@
     </h1>
 </div>
                         <div class="main-body-content">
-                            <article id="post-hello-world" class="article article-single article-type-post" itemscope itemprop="blogPost">
+                            <article id="post-how-to-build-blender-on-windows" class="article article-single article-type-post" itemscope itemprop="blogPost">
     <div class="article-inner">
         
             <header class="article-header">
                 
     
         <h1 class="article-title" itemprop="name">
-        Hello World
+        how to build blender on windows
         </h1>
     
 
@@ -155,8 +155,8 @@
             <div class="article-meta">
                 
     <div class="article-date">
-        <a href="/2018/01/04/hello-world/" class="article-date">
-            <time datetime="2018-01-04T12:40:31.211Z" itemprop="datePublished">2018-01-04</time>
+        <a href="/2018/01/05/how-to-build-blender-on-windows/" class="article-date">
+            <time datetime="2018-01-05T05:09:39.000Z" itemprop="datePublished">2018-01-05</time>
         </a>
     </div>
 
@@ -165,23 +165,17 @@
         
         
         <div class="article-entry" itemprop="articleBody">
-            <p>Welcome to <a href="https://hexo.io/" target="_blank" rel="noopener">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/" target="_blank" rel="noopener">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html" target="_blank" rel="noopener">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues" target="_blank" rel="noopener">GitHub</a>.</p>
-<h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="string">"My New Post"</span></span><br></pre></td></tr></table></figure>
-<p>More info: <a href="https://hexo.io/docs/writing.html" target="_blank" rel="noopener">Writing</a></p>
-<h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">$ hexo server</span><br><span class="line">$ hexo server --open</span><br><span class="line">$ hexo server --draft --open</span><br></pre></td></tr></table></figure>
-<p>More info: <a href="https://hexo.io/docs/server.html" target="_blank" rel="noopener">Server</a></p>
-<h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure>
-<p>More info: <a href="https://hexo.io/docs/generating.html" target="_blank" rel="noopener">Generating</a></p>
-<h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure>
-<p>More info: <a href="https://hexo.io/docs/deployment.html" target="_blank" rel="noopener">Deployment</a></p>
-<h3 id="Generate-static-files-and-deploy-to-remote-sites"><a href="#Generate-static-files-and-deploy-to-remote-sites" class="headerlink" title="Generate static files and deploy to remote sites"></a>Generate static files and deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo g -d</span><br></pre></td></tr></table></figure>
+            <p>blender를 windows10에서 visual studio 2015를 이용하여 build해보자.<br><a href="https://wiki.blender.org/index.php/Dev:Doc/Building_Blender/Windows" target="_blank" rel="noopener">이곳</a>을 참고하여<br>Subversion, Git, CMake, Visual Studio 2015 등등 필요한 응용 프로그램들을 설치한다.</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br></pre></td><td class="code"><pre><span class="line">cd c:\blender-git</span><br><span class="line">git clone git://git.blender.org/blender.git</span><br><span class="line">cd blender</span><br><span class="line">git submodule update --init --recursive</span><br><span class="line">git submodule foreach git checkout master</span><br><span class="line">git submodule foreach git pull --rebase origin master</span><br><span class="line">cd ..</span><br><span class="line">svn checkout https://svn.blender.org/svnroot/bf-blender/trunk/lib/win64_vc14  lib/win64_vc14</span><br><span class="line">cd blender</span><br><span class="line">make full nobuild debug x86 2015</span><br></pre></td></tr></table></figure>
+<p>make help를 이용하면 자세한 옵션을 알아낼 수 있다.</p>
+
         </div>
         <footer class="article-footer">
             
 
 
 
-    <a data-url="http://iamslash.github.io/2018/01/04/hello-world/" data-id="cjc1gu5eh00031cu9ix2i3ugq" class="article-share-link"><i class="fa fa-share"></i>Share</a>
+    <a data-url="http://iamslash.github.io/2018/01/05/how-to-build-blender-on-windows/" data-id="cjc1gu5cl00021cu99bg678qz" class="article-share-link"><i class="fa fa-share"></i>Share</a>
 <script>
     (function ($) {
         $('body').on('click', function() {
@@ -318,20 +312,10 @@
         
 <nav id="article-nav">
     
-        <a href="/2018/01/04/about-hexo/" id="article-nav-newer" class="article-nav-link-wrap">
-        <strong class="article-nav-caption">newer</strong>
-        <p class="article-nav-title">
-        
-            about hexo
-        
-        </p>
-        <i class="icon fa fa-chevron-right" id="icon-chevron-right"></i>
-    </a>
     
-    
-        <a href="/2018/01/04/how-to-draw-a-graph-on-md-document/" id="article-nav-older" class="article-nav-link-wrap">
+        <a href="/2018/01/04/about-hexo/" id="article-nav-older" class="article-nav-link-wrap">
         <strong class="article-nav-caption">older</strong>
-        <p class="article-nav-title">how to draw a graph on md document</p>
+        <p class="article-nav-title">about hexo</p>
         <i class="icon fa fa-chevron-left" id="icon-chevron-left"></i>
         </a>
     
@@ -493,7 +477,7 @@
     var disqus_shortname = 'hexo-theme-hueman';
     
     
-    var disqus_url = 'http://iamslash.github.io/2018/01/04/hello-world/';
+    var disqus_url = 'http://iamslash.github.io/2018/01/05/how-to-build-blender-on-windows/';
     
     (function() {
     var dsq = document.createElement('script');
